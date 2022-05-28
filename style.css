@@ -1,0 +1,52 @@
+section {
+     text-align: center ;
+}
+ h1 {
+     text-align: center;
+}
+ #WordsShow {
+     height: 280px;
+     width: 900px;
+     text-align:left;
+     border: 5px solid #03fc9d;
+     border-radius:12px;
+     margin-top: 50px;
+     margin-left: 300px;
+}
+ #llss {
+     column-count: 4;
+     font-size: 20px;
+}
+ input {
+     border: 2px solid red;
+     font-size: 15px;
+     width: 250px;
+     height: 30px;
+}
+ .button {
+     background-color: #989898;
+     border: none;
+     color: black;
+     padding: 5px 20px;
+     text-align: center;
+     border-radius:10px;
+     font-size: 20px;
+     margin: 5px 5px;
+     transition-duration: 0.3s;
+     cursor: pointer;
+}
+ .button:hover {
+     background-color: #87CEFA;
+     border: 1px solid #4CAF50;
+    ;
+}
+ .message {
+     color: #FF4933;
+     font-family: arial, sans-serif;
+     font-size: 22px;
+     font-weight: bold;
+}
+ body {
+     background-color: #B6CFDD ;
+}
+ 

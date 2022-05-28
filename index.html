@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Dictionary - Bruma Andrei</title>
+      <h1>Dictionary project</h1>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <section>
+         <input type="text" class="input" id="inputWord" placeholder="  Type the word...">
+         <button class="button" id = "add" type="button" onclick="addDictionary()">Add</button>
+         <br/> <br/>
+         <input type="text" class="input" id="searchWord" placeholder="  Type the word...">
+         <button class="button" id = "search" type="button" onclick="searchDictionary()">Search</button>
+         <br/> <br/>
+         <button class="button" type="button" onclick="location.reload()">Restart</button>
+         <br/> 
+         <h2 class="message" id="alertMessage"></h2>
+         <fieldset id="WordsShow">
+            <legend style="font-size: 20px" ><strong>Words Added</strong></legend>
+            <ul id="llss">
+            </ul>
+         </fieldset>
+         <h3 class="copyright" style = "font-size:20px; color:Grey;">Copyright &copy; 2022 Andrei Bruma</h3>
+      </section>
+      <script src="script.js"></script>
+   </body>
+</html>
