@@ -1,15 +1,15 @@
-const AllWordsAdd = [];
+const allWordsAdd = [];
 
 function addDictionary() {
    let inpWord = document.getElementById('inputWord').value.trim();
    if (inpWord === '') {
       alertMessage.innerHTML = "This is not a word!";
       document.getElementById('inputWord').value = '';
-   } else if (AllWordsAdd.includes(inpWord)) {
+   } else if (allWordsAdd.includes(inpWord)) {
       alertMessage.innerHTML = "The word has already been added. Type another word!";
       document.getElementById('inputWord').value = '';
    } else {
-      AllWordsAdd.push(inpWord);
+      allWordsAdd.push(inpWord);
       document.getElementById('inputWord').value = '';
       displayWords(inpWord);
 
@@ -21,7 +21,7 @@ function searchDictionary() {
    document.getElementById('searchWord').value = '';
    if (findWord === '') {
       alertMessage.innerHTML = "This is not a word!";
-   } else if (AllWordsAdd.includes(findWord)) {
+   } else if (allWordsAdd.includes(findWord)) {
       alertMessage.innerHTML = "The word was found in the dictionary!";
    } else {
       alertMessage.innerHTML = "The word is not in the dictionary!";
