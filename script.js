@@ -11,7 +11,7 @@ function addDictionary() {
    } else {
       AllWordsAdd.push(inpWord);
       document.getElementById('inputWord').value = '';
-      WordsDisplay(inpWord);
+      displayWords(inpWord);
 
    }
 }
@@ -28,7 +28,7 @@ function searchDictionary() {
    }
 }
 
-function WordsDisplay(inpWord) {
+function displayWords(inpWord) {
    let wrdli = document.createElement("li");
    const txtnd = document.createTextNode(inpWord);
    wrdli.appendChild(txtnd);
